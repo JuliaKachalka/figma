@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(207, 241, 241);
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    height: 880px;
+    background: #FFFFFF;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.container .content h1 {
+    max-width: 356px;
+    width: 100%;
+    height: 48px;
+    font-family: 'Arvo';
+    font-size: 50px;
+    color: #212121;
+    margin-top: 30px;
+    margin-left: 462px;
+}
+
+.container .content p {
+    max-width: 373.36px;
+    width: 100%;
+    font-family: 'OpenSans';
+    font-size: 14px;
+    color: #9FA3A7;
+    margin-left: 454px;
+    margin-top: 37px;
+}
+
+.container footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.container .card1 {
+    max-width: 144px;
+    width: 100%;
+    margin-left: 170px;
+    margin-top: 199px;
+    margin-bottom: 202px;
+}
+
+.container .card1 h2 {
+    max-width: 73px;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    color: #212121;
+    margin-left: 29px;
+}
+
+.container .card1 h3 {
+    max-width: 62px;
+    width: 100%;
+    font-family: 'Arvo';
+    font-size: 64px;
+    color: #212121;
+    margin-left: 3.5px;
+    margin-top: 5px;
+}
+
+.container .card1 .card1-dol {
+    max-width: 18px;
+    width: 100%;
+    font-family: 'Arvo';
+    font-size: 30px;
+    color: #212121;
+    margin-left: 6.5px;
+}
+
+.container .card1 .card1-ind {
+    max-width: 40px;
+    width: 100%;
+    font-family: 'Arvo';
+    font-size: 32px;
+    color: #212121;
+    margin-left: 3px;
+    vertical-align: super;
+}
+
+.container .card1 .niz {
+    max-width: 32px;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    letter-spacing: 2.4px;
+    color: #212121;
+    vertical-align: sub;
+    margin-left: 1px;
+    margin-top: 6px;
+}
+
+.container .card1 p {
+    max-width: 144px;
+    width: 100%;
+    font-family: 'Arvo';
+    font-size: 13px;
+    text-align: center;
+    color: #9FA3A7;
+    margin-top: 17px;
+}
+
+.container .card1 h5 {
+    max-width: 136px;
+    width: 100%;
+    height: 46px;
+    border: 2px solid #D8D8D8;
+    border-radius: 100px;
+    margin-top: 31px;
+    margin-left: 3px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container .card1 .knop1 {
+    max-width: 78px;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    color: #525252;
+    margin-left: 30px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    white-space: nowrap;
+}
+
+.container .card2 {
+    max-width: 310px;
+    width: 100%;
+    height: 500px;
+    margin-left: 39px;
+    margin-right: 27px;
+    margin-top: 74px;
+    background: #F05638;
+    border-radius: 6px;
+    background-image: url(../images/Rocket.png);
+    background-repeat: no-repeat;
+}
+
+.container .card2 h2 {
+    max-width: 71px;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    color:  #FFFFFF;
+    margin-left: 114px;
+    margin-top: 125px;
+}
+
+.container .card2 h3 {
+    max-width: 73px;
+    width: 100%;
+    font-family: 'Arvo';
+    font-size: 64px;
+    color: #FFFFFF;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+
+.container .card2 .card2-dol {
+    max-width: 18px;
+    width: 100%;
+    font-family: 'Arvo';
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-left: 83.5px;
+}
+
+.container .card2 .card2-ind {
+    max-width: 40px;
+    width: 100%;
+    font-family: 'Arvo';
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-left: 2.5px;
+    vertical-align: super;
+}
+
+.container .card2 .niz {
+    max-width: 32px;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    letter-spacing: 2.4px;
+    color: #FFFFFF;
+    vertical-align: sub;
+    margin-left: 1px;
+    margin-top: 6px;
+}
+
+.container .card2 p {
+    max-width: 158px;
+    width: 100%;
+    font-family: 'Arvo';
+    font-size: 13px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-left: 74px;
+}
+
+.container .card2 h5 {
+    max-width: 136px;
+    width: 100%;
+    height: 46px;
+    border: 2px solid #D8D8D8;
+    border-radius: 100px;
+    margin-top: 31px;
+    margin-left: 87px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container .card2 .knop2 {
+    max-width: 78px;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    color: #FFFFFF;
+    margin-left: 30px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    white-space: nowrap;
+}
+
+.container .card3 {
+    max-width: 144px;
+    width: 100%;
+    height: 289px;
+    margin-right: 44px;
+    margin-top: 199px;
+}
+
+.container .card3 h2 {
+    max-width: 77px;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    color:  #212121;
+    margin-left: 39.5px;
+}
+
+.container .card3 h3 {
+    max-width: 72px;
+    width: 100%;
+    font-family: 'Arvo';
+    font-size: 64px;
+    color: #212121;
+    margin-left: 0.5px;
+    margin-top: 5px;
+}
+
+.container .card3 .card3-dol {
+    max-width: 18px;
+    width: 100%;
+    font-family: 'Arvo';
+    font-size: 30px;
+    color: #212121;
+    margin-left: 4.5px;
+}
+
+.container .card3 .card3-ind {
+    max-width: 40px;
+    width: 100%;
+    font-family: 'Arvo';
+    font-size: 32px;
+    color: #212121;
+    margin-left: 5px;
+    vertical-align: super;
+}
+
+.container .card3 .niz {
+    max-width: 32px;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    letter-spacing: 2.4px;
+    color: #212121;
+    vertical-align: sub;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+
+.container .card3 p {
+    max-width: 144px;
+    width: 100%;
+    font-family: 'Arvo';
+    font-size: 13px;
+    text-align: center;
+    color: #9FA3A7;
+    margin-top: 17px;
+}
+
+.container .card3 h5 {
+    max-width: 136px;
+    width: 100%;
+    height: 46px;
+    border: 2px solid #D8D8D8;
+    border-radius: 100px;
+    margin-top: 31px;
+    margin-left: 5px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container .card3 .knop3 {
+    max-width: 78px;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    color: #525252;
+    margin-left: 29px;
+    margin-top: 17px;
+    margin-bottom: 15px;
+    white-space: nowrap;
+}
+
+.container .card4 {
+    margin-right: 25px;
+    margin-top: 120px;
+    margin-left: 44px;
+    max-width: 3px; 
+    width: 100%;
+    height: 402px;
+    border: 1px solid #E8E9ED;
+}
+
+.container .card5 {
+    max-width: 175px;
+    width: 100%;
+    height: 287px;
+    margin-left: 18px;
+    margin-right: 149px;
+    margin-top: 199px;
+}
+
+.container .card5 h2 {
+    max-width: 101px;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    color:  #212121;
+    margin-left: 40.5px;
+}
+
+.container .card5 h3 {
+    max-width: 107px;
+    width: 100%;
+    font-family: 'Arvo';
+    font-size: 64px;
+    color: #212121;
+    margin-left: 4.5px;
+    margin-top: 6px;
+}
+
+.container .card5 .card5-dol {
+    max-width: 18px;
+    width: 100%;
+    font-family: 'Arvo';
+    font-size: 30px;
+    color: #212121;
+    margin-left: 0.5px;
+}
+
+.container .card5 .card5-ind {
+    max-width: 40px;
+    width: 100%;
+    font-family: 'Arvo';
+    font-size: 32px;
+    color: #212121;
+    margin-left: 5px;
+    vertical-align: super;
+}
+
+.container .card5 .niz {
+    max-width: 32px;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    letter-spacing: 2.4px;
+    color: #212121;
+    vertical-align: sub;
+    margin-left: 4px;
+    margin-top: 6px;
+}
+
+.container .card5 p {
+    max-width: 166px;
+    width: 100%;
+    font-family: 'Arvo';
+    font-size: 13px;
+    text-align: center;
+    color: #9FA3A7;
+    margin-top: 16px;
+}
+
+.container .card5 h5 {
+    max-width: 136px;
+    width: 100%;
+    height: 46px;
+    border: 2px solid #D8D8D8;
+    border-radius: 100px;
+    margin-top: 47px;
+    margin-left: 15px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container .card5 .knop5 {
+    max-width: 78px;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    color: #525252;
+    margin-left: 29px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    white-space: nowrap;
+}

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    max-width: 1280px;
+    background-image: url(../images/BG.png);
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 640px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 560px;
+}
+
+.container header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.container .content {
+    max-width: 278px;
+    width: 100%;
+    margin-left: 78px;
+    margin-right: 125px;
+    max-width: 640px;
+    margin-top: 78px;
+}
+
+.container .content h2 {
+    font-family: 'Montserrat';
+    font-size: 10px;
+    letter-spacing: 2.4px;
+    color: #9FA3A7;
+    line-height: 40px;
+}
+
+.container .content h1 {
+    font-family: 'Arvo';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    color: #212121;
+}
+
+.container .content img {
+    max-width: 87px;
+    width: 100%;
+}
+
+.container .content span {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    color: #9FA3A7;
+    vertical-align: super;
+    margin-left: 20px;
+    cursor: none;
+}
+
+.container .block {
+    max-width: 79px;
+    width: 100%;
+    margin-right: 80px;
+    margin-top: 80px;
+}
+
+.container .block img {
+    max-width: 79px;
+    width: 100%;
+}
+
+.container .block h4 {
+    font-family: 'Montserrat';
+    color: #888888;
+    background-image: url(../images/Shape.png);
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+.container .block h3 {
+    font-family: 'Montserrat';
+    font-size: 10px;
+    letter-spacing: 2.4px;
+    color: #9FA3A7;
+    margin-top: 45px;
+}
+
+.container .mein {
+    max-width: 467px;
+    width: 100%;
+    margin-left: 80px;
+    margin-right: auto;
+    margin-top: 17px;
+}
+
+.container .mein p {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 26px;
+    color: #9FA3A7;
+}
+
+.container .price {
+    font-family: 'Montserrat'sans-serif;
+    font-size: 36px;
+    color: #292929;
+    margin-top: 25px;
+    margin-left: 80px;
+} 
+
+.container .price span {
+    font-family: 'Montserrat'sans-serif;
+    font-size: 19px;
+    color: #212121;
+    vertical-align: super;
+}
+
+.container .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-bottom: 41px;
+}
+
+.container .button {
+    width: 130px;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 11px;
+    background: #FFC80A;
+    border: 15px solid #FFC80A;
+    border-radius: 24px; 
+    margin-left: 80px;
+}
+
+.container .social {
+    width: 134px;
+    height: 21px;
+    padding-left: 120px;
+    padding-right: 79px;
+    margin-top: 31px;
+}
+
+.container .footer .social a {
+    width: 20px;
+    height: 20px;
+    padding-right: 21px;
+}
